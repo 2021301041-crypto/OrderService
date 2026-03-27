@@ -35,6 +35,5 @@ jobs:
           DOCKER_PASS: ${{ secrets.DOCKER_PASSWORD }}
         run: |
           echo "Logging in to Docker Hub..."
-        # 환경 변수를 사용하여 안전하게 전달
           echo "$DOCKER_PASS" | docker login -u "$DOCKER_USER" --password-stdin
           echo "Docker login successful"
