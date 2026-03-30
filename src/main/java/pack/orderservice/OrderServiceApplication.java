@@ -12,7 +12,7 @@ public class OrderServiceApplication {
     @GetMapping("/")
     public String hello() {
         System.out.println("OrderService:[아아1아아]");
-        return "OrderService[아dkdkdkdk]";
+        return "OrderService[아dkdkd1111kdk]";
     }
 
     public static void main(String[] args) {
